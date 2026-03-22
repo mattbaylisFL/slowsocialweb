@@ -115,11 +115,52 @@ Seriously. We made an app that plays modem sounds. What would we even do with yo
 
 <p>We do not knowingly collect information from children under 13 because <b>we do not collect information from anyone</b>. The app is rated 4+ and contains no objectionable content unless you consider modem sounds objectionable (which is fair).</p>
 
-<h3><font color="#800000">7. Data Retention</font></h3>
+<h3><font color="#800000">7. On-Device Storage</font></h3>
 
-<p>We retain exactly zero bytes of your data. The only thing stored on your device is a single UserDefaults boolean for the T1 Line purchase status and, in debug builds, a boolean for the developer toggle. That's it. Two booleans. We're not exactly swimming in data here.</p>
+<p>Slow Social stores some data <b>locally on your device</b> to power its features. None of this data is ever transmitted anywhere. Here's what lives on your phone:</p>
 
-<h3><font color="#800000">8. Your Rights</font></h3>
+<table border="1" cellpadding="5" cellspacing="0" bgcolor="#E8E8E8" width="100%">
+<tr bgcolor="#C0C0C0">
+    <td><font face="Courier New" size="2"><b>What</b></font></td>
+    <td><font face="Courier New" size="2"><b>Where</b></font></td>
+    <td><font face="Courier New" size="2"><b>Purpose</b></font></td>
+</tr>
+<tr>
+    <td><font face="Courier New" size="2">Connection Log</font></td>
+    <td><font face="Courier New" size="2">Local JSON file</font></td>
+    <td><font face="Courier New" size="2">History of connection attempts (Event Viewer)</font></td>
+</tr>
+<tr>
+    <td><font face="Courier New" size="2">Mindful Mode Settings</font></td>
+    <td><font face="Courier New" size="2">UserDefaults</font></td>
+    <td><font face="Courier New" size="2">Daily limits, schedules, cool-downs, line quality</font></td>
+</tr>
+<tr>
+    <td><font face="Courier New" size="2">Widget Data</font></td>
+    <td><font face="Courier New" size="2">App Group container (JSON)</font></td>
+    <td><font face="Courier New" size="2">Stats snapshot shared between main app and widget extension</font></td>
+</tr>
+<tr>
+    <td><font face="Courier New" size="2">T1 Line Purchase</font></td>
+    <td><font face="Courier New" size="2">UserDefaults</font></td>
+    <td><font face="Courier New" size="2">Whether you spent $0.99 to save 1 second</font></td>
+</tr>
+<tr>
+    <td><font face="Courier New" size="2">Setup Wizard Flag</font></td>
+    <td><font face="Courier New" size="2">UserDefaults</font></td>
+    <td><font face="Courier New" size="2">Whether you completed the setup wizard</font></td>
+</tr>
+</table>
+
+<br>
+
+<p><b>To be extremely clear:</b> all of this data stays on your device. There is no server. There is no cloud. There is no sync. The widget data is shared between the main app and widget extension via an App Group container &mdash; that's two processes on YOUR phone talking to each other. Nobody else is invited to this conversation.</p>
+
+<h3><font color="#800000">8. Data Retention</font></h3>
+
+<p>All data listed above lives on your device until you delete the app. When you delete Slow Social, it all goes with it. We retain exactly zero bytes of your data on our end, because there is no "our end." We don't have servers. We have a laptop and a dream.</p>
+
+<h3><font color="#800000">9. Your Rights</font></h3>
 
 <p>Under GDPR, CCPA, and various other privacy regulations, you have the right to:</p>
 <ul>
@@ -131,11 +172,11 @@ Seriously. We made an app that plays modem sounds. What would we even do with yo
 
 <p>If you'd like a formal response confirming the above, we will happily email you a formal letter that says "We don't have any of your data" in as many languages as you'd like.</p>
 
-<h3><font color="#800000">9. Changes to This Policy</font></h3>
+<h3><font color="#800000">10. Changes to This Policy</font></h3>
 
 <p>If we ever change this policy, it will be to add more ways we say "we don't collect your data." The fundamental truth &mdash; that this app collects nothing &mdash; will not change. If it does, something has gone terribly wrong and we've been replaced by pod people.</p>
 
-<h3><font color="#800000">10. Contact</font></h3>
+<h3><font color="#800000">11. Contact</font></h3>
 
 <p>If you have questions about this privacy policy (we're impressed, honestly), you can reach us at:</p>
 
