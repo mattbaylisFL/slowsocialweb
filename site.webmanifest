@@ -5,5 +5,13 @@
     "start_url": "./",
     "display": "browser",
     "theme_color": "#008080",
-    "background_color": "#008080"
+    "background_color": "#008080",
+    "related_applications": [
+        {
+            "platform": "itunes",
+            "url": "https://apps.apple.com/app/id6760975243",
+            "id": "6760975243"
+        }
+    ],
+    "prefer_related_applications": true
 }

@@ -23,4 +23,4 @@ All connection logs stay on-device. Never transmitted.
 
 ## Apps
 
-- Slow Social on the iOS App Store (URL pending — page currently links to "#").
+- [Slow Social on the App Store](https://apps.apple.com/app/id6760975243): iPhone, iOS 17+. Free download with optional T1 Premium tier.
