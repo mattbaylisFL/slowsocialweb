@@ -1,0 +1,26 @@
+# Slow Social
+
+> A dial-up modem simulator for iOS that forces 1990s connection times before opening any social media app. Wait ~27 seconds (with real modem sounds, 28.8 kbps progress bar, busy signals, haptic feedback) every time you try to open Instagram, TikTok, etc. Marketed as a joke, accidentally a screen-time tool.
+
+Slow Social detects every social media app on the device, then makes you sit through a full dial-up handshake before each one opens. The wait is the product. Users started telling the developer the forced friction made them reconsider the 47th TikTok-open of the day — so Slow Social added "Mindful Mode": real screen-time tools (daily connection limits, ISP operating hours, cool-down timers, busy-signal probability, network congestion) disguised as fake ISP restrictions ("Your ISP has suspended service for today").
+
+Visual style is full Windows 95 throwback — beveled buttons, navy title bars, marquees, hit counter, webring. Desktop themes also include Vintage Mac and CRT Monitor.
+
+## Tiers
+
+- **Free**: full dial-up experience, all 29 apps, modem sounds, busy signal slider, connection log, basic widget.
+- **T1 Premium**: faster handshake (~3 sec), daily connection limits, ISP operating hours, redial cool-down timer, network congestion, full widget stats.
+
+## Privacy
+
+All connection logs stay on-device. Never transmitted.
+
+## Key pages
+
+- [Home](https://mattbaylisfl.github.io/slowsocialweb/): Features, Mindful Mode, desktop themes, T1 Premium tier, FAQ.
+- [Privacy policy](https://mattbaylisfl.github.io/slowsocialweb/privacy.html)
+- [Terms & Conditions](https://mattbaylisfl.github.io/slowsocialweb/terms.html)
+
+## Apps
+
+- Slow Social on the iOS App Store (URL pending — page currently links to "#").

@@ -1,0 +1,9 @@
+{
+    "name": "Slow Social",
+    "short_name": "Slow Social",
+    "description": "Wait 27 seconds to open Instagram. A dial-up modem simulator for iOS that forces 1990s connection times before opening any social media app.",
+    "start_url": "./",
+    "display": "browser",
+    "theme_color": "#008080",
+    "background_color": "#008080"
+}
